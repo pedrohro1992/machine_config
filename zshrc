@@ -109,9 +109,6 @@ alias vpnstart="openvpn3 session-start --config /home/pedro/Workspace/vpn/client
 alias vpnstatus="openvpn3 sessions-list"
 alias vpnstop="openvpn3 session-manage --disconnect --config /home/pedro/Workspace/vpn/client.ovpn"
 alias vpnrestart="openvpn3 session-manage --restart --config /home/pedro/Workspace/vpn/client.ovpn"
-#SSH MACHINES 
-alias prodlegacy="ssh mdc.poliveira@10.250.129.94"
-alias sshnode='ssh -i ~/Workspace/ssh_keys/aws-ifood.pem'
 #KUBERNETS ALIAS
 alias k='kubectl'
 alias kgetcon='kubectl config get-contexts | grep -i'
@@ -121,7 +118,6 @@ alias kusens='kubectl config set "contexts."`kubectl config current-context`".na
 alias kcurrentns="kubectl config get-contexts | grep -i $(kubectl config current-context) | awk '{print \$5}'"
 alias klog='kubectl logs -f -n'
 alias off='shutdown -h now'
-alias forceoff='systemctl poweroff -i'
-alias k18='k18.sh' 
+alias forceoff='systemctl poweroff -i' 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
