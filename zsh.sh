@@ -18,9 +18,12 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 
-#Copy ZSH FIle
+#Copy ZSH Source Configurations
 
-wget https://raw.githubusercontent.com/pedrohro1992/machine_config/main/zshrc
-mv .zshrc ~/.zshrc 
+
+cp zshrc ~/.zshrc 
+
+#Copy history files
+cp zsh_history ~/.zsh_history 
 
 

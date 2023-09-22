@@ -1,0 +1,490 @@
+: 1695180324:0;asdf
+: 1695180326:0;clear 
+: 1695180410:0;sudo usermod --shell $(which zsh) $USER 
+: 1695180415:0;exit
+: 1695180463:0;ls -la 
+: 1695180483:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting  
+: 1695180490:0;git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions 
+: 1695180502:0;git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install 
+: 1695180517:0;ls
+: 1695180521:0;ls -l
+: 1695180529:0;ls -la 
+: 1695180539:0;cat .zshrc
+: 1695180542:0;ls
+: 1695180563:0;mv .zshrc ~/.zshrc
+: 1695180570:0;source ~/.zshrc
+: 1695180574:0;ls
+: 1695180575:0;clear 
+: 1695180576:0;ls -l 
+: 1695180580:0;ls -l
+: 1695180582:0;pwd
+: 1695180586:0;cd ..
+: 1695180587:0;ls
+: 1695180592:0;ls 
+: 1695180616:0;ls
+: 1695180620:0;mkdir misc 
+: 1695180627:0;mv machine_config misc
+: 1695180628:0;ls
+: 1695180633:0;source ~/.zshrc
+: 1695180634:0;ls
+: 1695180635:0;clear 
+: 1695180637:0;kubeon 
+: 1695180639:0;kubeoff
+: 1695180641:0;kgpo
+: 1695180643:0;alias 
+: 1695180645:0;kgpo 
+: 1695180649:0;source ~/.zshrc
+: 1695180650:0;kgpo
+: 1695180611:0;cat .zshrc
+: 1695180666:0;exit 
+: 1695180672:0;alias | grep kgpo
+: 1695180682:0;asdf 
+: 1695180736:0;code 
+: 1695180905:0;code -r . 
+: 1695180907:0;clear 
+: 1695180954:0;code 
+: 1695180956:0;clear 
+: 1695181009:0;ls
+: 1695181010:0;code 
+: 1695181096:0;cd workspace
+: 1695181101:0;mkdir study 
+: 1695181101:0;ls
+: 1695181104:0;cd study
+: 1695181120:0;git clone git@github.com:pedrohro1992/terraform-up-and-running.git 
+: 1695181122:0;ls
+: 1695181123:0;cd terraform-up-and-running
+: 1695181125:0;code -r . 
+: 1695181324:0;ls -l
+: 1695181326:0;clear 
+: 1695181329:0;terraform --version 
+: 1695181359:0;cd ~
+: 1695181364:0;vim .zshrc
+: 1695181454:0;git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+: 1695181461:0;source ~/.zshrc
+: 1695181462:0;asdf 
+: 1695181464:0;clear 
+: 1695181464:0;ls
+: 1695181472:0;asdf plugin add terraform 
+: 1695181478:0;cd workspace
+: 1695181478:0;ls
+: 1695181479:0;cd misc
+: 1695181479:0;ls
+: 1695181480:0;cd machine_config
+: 1695181480:0;ls
+: 1695181484:0;./zsh.sh
+: 1695181493:0;ls
+: 1695181497:0;./asdf.sh
+: 1695182031:0;terraform --version 
+: 1695182053:0;python --version 
+: 1695182054:0;clear 
+: 1695182059:0;ls 
+: 1695182061:0;cd ~
+: 1695182062:0;ls
+: 1695182063:0;clear 
+: 1695182162:0;cd workspace
+: 1695182162:0;s
+: 1695182163:0;ls
+: 1695182165:0;cd misc
+: 1695182165:0;ls
+: 1695182166:0;cd machine_config
+: 1695182166:0;ls
+: 1695182170:0;code asdf.sh
+: 1695182190:0;clear 
+: 1695182190:0;ls
+: 1695182201:0;	./zsh.sh
+: 1695182205:0;./asdf.sh
+: 1695182251:0;terraform --version 
+: 1695182259:0;kgpo
+: 1695182264:0;clear 
+: 1695182265:0;ls -l
+: 1695182273:0;asdf plugin add terraform 
+: 1695182283:0;asdf install terraform latest 
+: 1695182302:0;sudo apt-get install unzip 
+: 1695182311:0;asdf install terraform latest 
+: 1695182415:0;terraform --version 
+: 1695182422:0;asdf list-all terraform 
+: 1695182430:0;asdf install terraform 1.2.0 
+: 1695182443:0;asdf global terraform 1.2.0 
+: 1695182446:0;terraform --version 
+: 1695182449:0;clear 
+: 1695182451:0;ls
+: 1695182452:0;cd ..
+: 1695182453:0;ls
+: 1695182474:0;cd ..
+: 1695182474:0;ls
+: 1695182475:0;cd study
+: 1695182475:0;ls
+: 1695182477:0;cd terraform-up-and-running
+: 1695182477:0;ls
+: 1695182480:0;cd chapter_2
+: 1695182480:0;ls
+: 1695182481:0;clear 
+: 1695182498:0;asdf install python latest 
+: 1695182548:0;curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"\
+unzip awscliv2.zip\
+sudo ./aws/install 
+: 1695182560:0;aws --version 
+: 1695182562:0;ls 
+: 1695182565:0;rm -rf aws
+: 1695182566:0;ls
+: 1695182568:0;rm -rf awscliv2.zip
+: 1695182569:0;clear 
+: 1695182570:0;ls
+: 1695182571:0;ls -la 
+: 1695182576:0;aws --version 
+: 1695182579:0;clear 
+: 1695173569:0;kgpo
+: 1695173574:0;kubens 
+: 1695173578:0;kubeon 
+: 1695173582:0;kubeoff 
+: 1695173583:0;ls
+: 1695173587:0;clear 
+: 1695173588:0;kgpo
+: 1695173594:0;cd ~/.k
+: 1695173595:0;ls
+: 1695173600:0;ls -la 
+: 1695222267:0;kubeon 
+: 1695222352:0;kgpo
+: 1695222431:0;kube0ff 
+: 1695222435:0;kubeoff 
+: 1695222437:0;kubeon 
+: 1695222438:0;kgpo 
+: 1695222441:0;clear 
+: 1695222442:0;kgno 
+: 1695222444:0;clear 
+: 1695222445:0;kgpo
+: 1695222486:0;clear 
+: 1695222487:0;kgpo
+: 1695222496:0;kgpo -o wide
+: 1695222497:0;clear 
+: 1695222527:0;kgpo
+: 1695222529:0;clear 
+: 1695222554:0;kubectl --version 
+: 1695222556:0;clear
+: 1695222558:0;kubeoff 
+: 1695222560:0;cd workspace/l
+: 1695222561:0;cd workspace
+: 1695222561:0;ls
+: 1695222563:0;cd study
+: 1695222563:0;ls
+: 1695222565:0;cd terraform-up-and-running
+: 1695222565:0;ls
+: 1695222566:0;cd chapter_2
+: 1695222567:0;ls
+: 1695222567:0;clear 
+: 1695222810:0;aws configure
+: 1695222834:0;aws s3 ls 
+: 1695222840:0;terraform init 
+: 1695222864:0;terraform plan 
+: 1695222875:0;clear 
+: 1695232520:0;cd ..
+: 1695232521:0;ls
+: 1695232525:0;mkdir chapter_3 
+: 1695232525:0;ls
+: 1695232527:0;cd chapter_
+: 1695232529:0;cd chapter_3 
+: 1695232529:0;ls
+: 1695232720:0;touch provider.tf main.tf 
+: 1695232721:0;code -r , 
+: 1695232732:0;code -r . 
+: 1695232761:0;cd ..
+: 1695232762:0;code -r . 
+: 1695234069:0;clear 
+: 1695234073:0;terraform init 
+: 1695234075:0;cd chapter_
+: 1695234080:0;ls -la 
+: 1695234084:0;cd chapter_3 
+: 1695234084:0;ls
+: 1695234087:0;terraform init 
+: 1695234103:0;terraform apply 
+: 1695234145:0;aws s3 ls 
+: 1695234212:0;touch backend.tf 
+: 1695234300:0;terraform init 
+: 1695234382:0;touch output.tf 
+: 1695234498:0;terraform apply 
+: 1695236772:0;mkdir workspaces; cd workspaces 
+: 1695236931:0;ls
+: 1695236960:0;cd .. 
+: 1695236968:0;mv workspaces workspaces-example
+: 1695236969:0;cd workspaces-example
+: 1695236969:0;ls
+: 1695236981:0;touch main.tf provider.tf backend.tf 
+: 1695237196:0;ls
+: 1695237197:0;terraform init 
+: 1695237233:0;terraform apply 
+: 1695237538:0;terraform workspace show 
+: 1695237563:0;terraform workspace new example1 
+: 1695237594:0;terraform plan 
+: 1695237642:0;terraform apply 
+: 1695237687:0;terraform workspace new example2 
+: 1695237711:0;terraform apply 
+: 1695240052:0;terraform workspace select default 
+: 1695240057:0;terraform destroy 
+: 1695240125:0;terraform workspace select example1
+: 1695240132:0;terraform destroy --auto-approve
+: 1695240189:0;terraform workspace select example2 
+: 1695240201:0;terraform destroy --auto-approve 
+: 1695240272:0;cd ..
+: 1695240273:0;ls
+: 1695240281:0;ls -la 
+: 1695240291:0;mkdir state 
+: 1695240295:0;mv * state
+: 1695240297:0;ls
+: 1695240300:0;cd state
+: 1695240300:0;ls
+: 1695240305:0;mv workspaces-example ../ 
+: 1695240305:0;ls
+: 1695240307:0;cd ..
+: 1695240307:0;ls
+: 1695240313:0;mv state tf_state
+: 1695240313:0;ls
+: 1695242440:0;cd ..
+: 1695242440:0;ls
+: 1695242446:0;mkdir chapters 
+: 1695242455:0;mv chapter_2/ chapter_3 chapters
+: 1695242462:0;mkdir stage
+: 1695242462:0;ls
+: 1695242466:0;cd stage
+: 1695242467:0;ks
+: 1695242468:0;ls
+: 1695242489:0;mkdir services 
+: 1695242490:0;ls
+: 1695242493:0;cd services
+: 1695242494:0;ls
+: 1695242500:0;mkdir wevserver-cluster 
+: 1695242505:0;rm -rf wevserver-cluster
+: 1695242511:0;mkdir webserver-cluster
+: 1695242511:0;ls
+: 1695242514:0;cd webserver-cluster
+: 1695242515:0;ls
+: 1695242516:0;ls -la 
+: 1695242538:0;cp -r ../../../chapters/chapter_2/* .
+: 1695242539:0;ls
+: 1695242559:0;mv data.tf dependencies.tf 
+: 1695242561:0;ls
+: 1695242562:0;cd ..
+: 1695242564:0;ls
+: 1695242565:0;cd ..
+: 1695242565:0;ls
+: 1695242571:0;mkdir global 
+: 1695242572:0;ls
+: 1695242573:0;cd global
+: 1695242574:0;ls
+: 1695242609:0;mkdir s3 
+: 1695242609:0;ls
+: 1695242610:0;cd s3
+: 1695242611:0;ls
+: 1695242639:0;cp -r ../../chapters/chapter_3/tf_state/* . 
+: 1695242641:0;ls -la 
+: 1695242643:0;cd ..
+: 1695242644:0;ls
+: 1695242645:0;cd ..
+: 1695242645:0;ls
+: 1695242646:0;cd ..
+: 1695242647:0;ls
+: 1695242648:0;cd ..
+: 1695242649:0;cd - 
+: 1695242650:0;cd tt
+: 1695242652:0;cd terraform-up-and-running
+: 1695242652:0;ls
+: 1695244014:0;ls -l 
+: 1695244037:0;mv global stage chapters/chapter_3
+: 1695244042:0;cd chapters/chapter_3
+: 1695244042:0;ls
+: 1695244060:0;mkdir file_layout 
+: 1695244069:0;mv global stage file_layout
+: 1695244070:0;ls
+: 1695244072:0;cd file_layout
+: 1695244073:0;ls
+: 1695244078:0;cd stage
+: 1695244078:0;ls
+: 1695244092:0;mkdir data-stores 
+: 1695244096:0;cd data-stores
+: 1695244096:0;ls
+: 1695244101:0;mkdir mysql 
+: 1695244102:0;ls
+: 1695244104:0;cd mysql
+: 1695244105:0;ls
+: 1695244126:0;touch variables.tf outputs.tf main.tf provider.tf
+: 1695244127:0;ls
+: 1695244466:0;touch terraform.tfstate 
+: 1695313637:0;cd workspace
+: 1695313637:0;ls
+: 1695313638:0;cd study
+: 1695313639:0;ls
+: 1695313640:0;cd terraform-up-and-running
+: 1695313641:0;ls
+: 1695313645:0;code -r , 
+: 1695313648:0;code -r . 
+: 1695313734:0;ls
+: 1695313735:0;cd chapters
+: 1695313736:0;ls
+: 1695313738:0;cd chapter_3
+: 1695313738:0;ls
+: 1695313743:0;cd file_layout
+: 1695313743:0;ls
+: 1695313745:0;cd stage
+: 1695313746:0;ls
+: 1695314054:0;export TF_VAR_db_username="pedro"
+: 1695314076:0;export TF_VAR_db_password="amrelo10"
+: 1695314078:0;terraform apply 
+: 1695314081:0;ls
+: 1695314083:0;cd data-stores
+: 1695314083:0;ls
+: 1695314085:0;cd mysql
+: 1695314085:0;ls
+: 1695314086:0;clear 
+: 1695314089:0;terraform init 
+: 1695314123:0;terraform applyt 
+: 1695314130:0;terraform apply 
+: 1695314244:0;ipcalc 
+: 1695314254:0;sudo apt-get install ipcalc 
+: 1695314377:0;terraform apply 
+: 1695314500:0;terraform appy 
+: 1695314510:0;terraform apply 
+: 1695314902:0;terraform console
+: 1695315013:0;touch user-data.sh
+: 1695315878:0;ls
+: 1695315881:0;cd ..
+: 1695315881:0;ls
+: 1695315883:0;cd ..
+: 1695315883:0;ls
+: 1695315885:0;cd services
+: 1695315885:0;ls
+: 1695315886:0;cd webserver-cluster
+: 1695315887:0;ls
+: 1695315890:0;terraform init 
+: 1695315902:0;terraform plan 
+: 1695315915:0;ls
+: 1695315946:0;terraform apply 
+: 1695316128:0;terraform appy 
+: 1695316131:0;terraform apply 
+: 1695316350:0;curl terraform-asg-example-60791897.us-east-1.elb.amazonaws.com" 
+: 1695316364:0;curl -i terraform-asg-example-60791897.us-east-1.elb.amazonaws.com 
+: 1695316370:0;curl -I terraform-asg-example-60791897.us-east-1.elb.amazonaws.com" 
+: 1695316373:0;curl -I terraform-asg-example-60791897.us-east-1.elb.amazonaws.com 
+: 1695316618:0;terraform appy 
+: 1695316623:0;terraform apply 
+: 1695316844:0;curl terraform-asg-example-60791897.us-east-1.elb.amazonaws.com 
+: 1695316898:0;terraform apply --auto-approve
+: 1695316937:0;curl  terraform-asg-example-60791897.us-east-1.elb.amazonaws.com
+: 1695316995:0;terraform destroy --auto-approve 
+: 1695317188:0;terraform apply --auto-approve 
+: 1695317438:0;curl -I http://terraform-asg-example-1916784116.us-east-1.elb.amazonaws.com 
+: 1695317542:0;terraform destroy --auto-approve 
+: 1695317658:0;cd ..
+: 1695317659:0;ls
+: 1695317659:0;cd ..
+: 1695317659:0;ls
+: 1695317662:0;cd data-stores
+: 1695317663:0;ls
+: 1695317664:0;cd mysql
+: 1695317665:0;ls
+: 1695317671:0;terraform destroy --auto-approve 
+: 1695317877:0;cd ..
+: 1695317878:0;ls
+: 1695317879:0;cd ..
+: 1695317879:0;ls
+: 1695317880:0;cd ..
+: 1695317881:0;ls
+: 1695317884:0;cd file_layout
+: 1695317884:0;ls
+: 1695317885:0;cd global
+: 1695317886:0;ls
+: 1695317887:0;cd s3
+: 1695317887:0;ls
+: 1695317893:0;terraform destroy --auto-approve 
+: 1695317896:0;terraform init 
+: 1695317916:0;terraform destroy --auto-approve 
+: 1695317956:0;terraform apply --auto-approve 
+: 1695317983:0;terraform destroy --auto-approve 
+: 1695318035:0;terraform destroy 
+: 1695318044:0;cd ..
+: 1695318044:0;ls
+: 1695318045:0;cd ..
+: 1695318046:0;ls
+: 1695318046:0;cd ..
+: 1695318047:0;ls
+: 1695318048:0;cd .. 
+: 1695318050:0;git status 
+: 1695318051:0;git add . 
+: 1695318136:0;git commit -m "refactor of code structure" 
+: 1695318163:0;git config --global user.email "pedro_hro1992@outlook.com" 
+: 1695318179:0;git config --global user.name "Pedro Oliveira" 
+: 1695318185:0;git commit -m "refactor of code structure" 
+: 1695318192:0;git commit -m "end of chapter 3" 
+: 1695318203:0;git add . 
+: 1695318205:0;git commit -m "end of chapter 3" 
+: 1695318211:0;git push origin main 
+: 1695319813:0;ls
+: 1695319816:0;mkdir chapter_4 
+: 1695319819:0;cd chapter_4 
+: 1695319819:0;ls
+: 1695319881:0;mv ../chapter_3/file_layout/* . 
+: 1695319917:0;ls
+: 1695319922:0;mkdir modules 
+: 1695319923:0;ls
+: 1695319943:0;cd modules
+: 1695319944:0;ls 
+: 1695319950:0;mkdir services 
+: 1695319950:0;ls
+: 1695319952:0;cd services
+: 1695319953:0;ls
+: 1695319960:0;mkdir webserver-cluste 
+: 1695319968:0;mv webserver-cluste webserver-cluster 
+: 1695319968:0;ls
+: 1695319971:0;cd webserver-cluster
+: 1695319971:0;ls
+: 1695319991:0;mv ../../../stage/services/webserver-cluster/* .
+: 1695319991:0;ls
+: 1695319996:0;ls -la
+: 1695320033:0;cd ..
+: 1695320033:0;ls
+: 1695320035:0;cd .. 
+: 1695320035:0;ls
+: 1695320036:0;cd ..
+: 1695320036:0;ls
+: 1695320037:0;cd global
+: 1695320038:0;ls
+: 1695320039:0;cd s3
+: 1695320039:0;ls
+: 1695320067:0;ls -la 
+: 1695320086:0;rm -rf terraform.tfstate*
+: 1695320087:0;ls -l 
+: 1695320088:0;ls -la 
+: 1695320092:0;rm -rf .terraform* 
+: 1695320094:0;ls -la 
+: 1695320096:0;terraform init 
+: 1695320119:0;terraform apply
+: 1695320194:0;terraform destroy ]
+: 1695320197:0;terraform destroy 
+: 1695320215:0;aws s3 ls 
+: 1695320336:0;terraform apply --auto-approve 
+: 1695326550:0;aws s3 ls 
+: 1695326576:0;terraform apply --auto-approve 
+: 1695392011:0;cd workspace
+: 1695392012:0;s
+: 1695392013:0;ls
+: 1695392015:0;cd study
+: 1695392016:0;ls
+: 1695392019:0;cd terraform-up-and-running
+: 1695392019:0;ls
+: 1695392021:0;git status 
+: 1695392023:0;git add . 
+: 1695392032:0;git commit -m "refactor" 
+: 1695392037:0;git push origin main 
+: 1695392045:0;cd ..
+: 1695392046:0;ls
+: 1695392047:0;cd ..
+: 1695392047:0;ls
+: 1695392049:0;cd misc
+: 1695392050:0;ls
+: 1695392051:0;cd machine_config
+: 1695392052:0;code -r . 
+: 1695392121:0;ls 
+: 1695392155:0;mv .zshrc zshrc  
+: 1695392158:0;LS -LA 
+: 1695392161:0;ls -la 
+: 1695392182:0;cp -r ~/.zshrc . 
+: 1695392185:0;mv .zshrc zshrc  
+: 1695392235:0;cp  ~/.zsh_history zsh_history

@@ -4,7 +4,6 @@ asdf plugin add kubectl
 asdf plugin add terraform
 asdf plugin add golang
 asdf plugin add kops
-asdf plugin add python
 asdf plugin add stern 
 asdf plugin add kubectx
 asdf plugin add helmfile
