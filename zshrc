@@ -13,8 +13,8 @@ plugins=(git
 
 #STARTUPS SCRIPTS
 source $ZSH/oh-my-zsh.sh
-source "/home/$USER/workspace/misc/machine_config/kube-ps1/kube-ps1.sh"
-[ -f ~/workspace/misc/machine_config/kubectl_alias/.kubectl_aliases  ] && source ~/workspace/misc/machine_config/kubectl_alias/.kubectl_aliases 
+source "/home/$USER/Workspace/personal/machine_config/kube-ps1/kube-ps1.sh"
+[ -f ~/Workspace/personal/machine_config/kubectl_alias/.kubectl_aliases  ] && source ~/Workspace/personal/machine_config/kubectl_alias/.kubectl_aliases 
 
 #PS1 CONFIGURATIONS
 PROMPT=$PROMPT'$(kube_ps1)'
@@ -27,4 +27,4 @@ kubeoff
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 
-export GOPATH=/home/pedro/workspace/go
+#export GOPATH=/home/pedro/workspace/go
