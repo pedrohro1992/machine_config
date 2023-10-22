@@ -19,12 +19,23 @@ source "/home/$USER/Workspace/personal/machine_config/kube-ps1/kube-ps1.sh"
 #PS1 CONFIGURATIONS
 PROMPT=$PROMPT'$(kube_ps1)'
 
-#TURNOFF KUBE_PS1 BY DEFAULT
-kubeoff
+#alias Kuberntes
+alias kclear='kubectx -u'
+alias kctx='kubectx'
+alias kns='kubens'
 
+#alias Terraform
+alias tinit='terraform init'
+alias tplan='terraform plan'
+alias tapply='terraform apply'
+alias tapplyforce='terraform apply --auto-approve'
+alias tplantg='terraform plan --target='
+alias tapplytg='terraform apply --target='
 
+#Alias neo vim 
+alias nvim='/usr/bin/nvim.appimage' 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 
-#export GOPATH=/home/pedro/workspace/go
+eval "$(starship init zsh)"
