@@ -29,7 +29,7 @@ disabled = false
 #truncation_length = 10
 #truncation_symbol = "…/"
 #home_symbol = " ~"
-fish_style_pwd_dir_length = 1
+fish_style_pwd_dir_length = 0
 #read_only_style = "197"
 #format = "[$path]($style)[$read_only]($read_only_style) "
 
