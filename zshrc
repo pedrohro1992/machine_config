@@ -12,29 +12,39 @@ plugins=(git
 
 #STARTUPS SCRIPTS
 source $ZSH/oh-my-zsh.sh
-source "/home/$USER/Workspace/personal/machine_config/kube-ps1/kube-ps1.sh"
+#source "/home/$USER/Workspace/personal/machine_config/kube-ps1/kube-ps1.sh"
 [ -f ~/Workspace/personal/machine_config/kubectl_alias/.kubectl_aliases  ] && source ~/Workspace/personal/machine_config/kubectl_alias/.kubectl_aliases 
 
 #PS1 CONFIGURATIONS
-PROMPT=$PROMPT'$(kube_ps1)'
+#PROMPT=$PROMPT'$(kube_ps1)'
 
-#alias Kuberntes
-alias kclear='kubectx -u'
-alias kctx='kubectx'
-alias kns='kubens'
 
-#alias Terraform
+#Misc Alias
+alias goto='DIR=$(zoxide query -l | fzf --reverse --print0) ; cd $DIR'
+alias fcode='/home/pedro_hro/Workspace/personal/machine_config/scripts/fcode.sh'
+
+#Terraform alias
+alias t='terraform'
 alias tinit='terraform init'
 alias tplan='terraform plan'
 alias tapply='terraform apply'
-alias tapplyforce='terraform apply --auto-approve'
-alias tplantg='terraform plan --target='
-alias tapplytg='terraform apply --target='
 
-#Alias neo vim 
-alias nvim='/usr/bin/nvim.appimage' 
+#Terragrunt alias
+alias tr='terragrunt'
+alias trplan='terragrunt plan'
+alias trapply='terragrunt apply'
+
+#Kubectx Alias
+alias kunset='kubectx --unset'
+
+#zoxide
+alias cz='z'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-
 eval "$(starship init zsh)"
+
+eval "$(zoxide init zsh)"
+
+
+#export GOPATH=/home/pedro/workspace/go
