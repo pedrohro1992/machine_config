@@ -25,8 +25,12 @@ alias goto='DIR=$(zoxide query -l | fzf --reverse --print0) ; cd $DIR'
 alias fcode='/home/pedro_hro/Workspace/personal/machine_config/scripts/fcode.sh'
 
 # tmuxifier alias 
-alias txls='/home/pedro_hro/Workspace/personal/machine_config/scripts/txls.sh'
-alias txedit='/home/pedro_hro/Workspace/personal/machine_config/scripts/txedit.sh'
+alias goto='DIR=$(zoxide query -l | fzf --reverse --print0) ; cd $DIR'
+alias fcode='/home/pedro/Workspace/personal/machine_config/scripts/fcode.sh'
+alias nvim='nvim.appimage'
+alias txedit='/home/pedro/Workspace/personal/machine_config/scripts/txedit.sh'
+alias txcon='/home/pedro/Workspace/personal/machine_config/scripts/txcon.sh'
+alias txgit='/home/pedro/Workspace/personal/machine_config/scripts/txgit.sh'
 
 #Terraform alias
 alias t='terraform'
