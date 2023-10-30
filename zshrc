@@ -1,5 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
-
+export PATH="$HOME/.tmuxifier/bin:$PATH"
+export EDITOR=code
 
 ZSH_THEME="robbyrussell"
 
@@ -23,6 +24,10 @@ source $ZSH/oh-my-zsh.sh
 alias goto='DIR=$(zoxide query -l | fzf --reverse --print0) ; cd $DIR'
 alias fcode='/home/pedro_hro/Workspace/personal/machine_config/scripts/fcode.sh'
 
+# tmuxifier alias 
+alias txls='/home/pedro_hro/Workspace/personal/machine_config/scripts/txls.sh'
+alias txedit='/home/pedro_hro/Workspace/personal/machine_config/scripts/txedit.sh'
+
 #Terraform alias
 alias t='terraform'
 alias tinit='terraform init'
@@ -45,6 +50,8 @@ alias cz='z'
 eval "$(starship init zsh)"
 
 eval "$(zoxide init zsh)"
+
+eval "$(tmuxifier init -)"
 
 
 #export GOPATH=/home/pedro/workspace/go
