@@ -1,9 +1,0 @@
-{
-    "workbench.startupEditor": "none",
-    "workbench.colorTheme": "Catppuccin Mocha",
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true,
-        "source.organizeImports": true
-    },
-    "editor.formatOnSave": true
-}
