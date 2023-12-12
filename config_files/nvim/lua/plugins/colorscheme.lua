@@ -8,12 +8,13 @@ return {
       }
     end,
   },
+  { "NLKNguyen/papercolor-theme" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "onedark_vivid",
+      colorscheme = "PaperColor",
     },
   },
 }
