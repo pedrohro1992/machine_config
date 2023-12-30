@@ -10,18 +10,7 @@ $all[╰─](238)$character"""
 success_symbol = "[](green)"
 error_symbol = "[](red)"
 
-# Shows an icon depending on what distro it is running on
-[env_var.STARSHIP_DISTRO]
-format = '[$env_value](bold white) '
-variable = "STARSHIP_DISTRO"
-disabled = false
 
-
-# Shows an icon depending on what device it is running on
-[env_var.STARSHIP_DEVICE]
-format = '[$env_value](bold yellow)'
-variable = "STARSHIP_DEVICE"
-disabled = false
 
 
 # Shows current directory

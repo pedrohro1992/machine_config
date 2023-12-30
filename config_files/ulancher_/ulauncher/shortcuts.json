@@ -1,0 +1,42 @@
+{
+    "053d1b52-2081-47da-a993-a3e489128189": {
+        "id": "053d1b52-2081-47da-a993-a3e489128189",
+        "name": "Google Search",
+        "keyword": "g",
+        "cmd": "https://google.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/google-search-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1702741324.4850588
+    },
+    "e8755f87-5fcf-4255-bac0-37b61a803884": {
+        "id": "e8755f87-5fcf-4255-bac0-37b61a803884",
+        "name": "Stack Overflow",
+        "keyword": "so",
+        "cmd": "https://stackoverflow.com/search?q=%s",
+        "icon": "/usr/share/ulauncher/media/stackoverflow-icon.svg",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1702741324.4850712
+    },
+    "d1e22dcc-b10b-414a-b36c-f75bb438622c": {
+        "id": "d1e22dcc-b10b-414a-b36c-f75bb438622c",
+        "name": "Wikipedia",
+        "keyword": "wiki",
+        "cmd": "https://en.wikipedia.org/wiki/%s",
+        "icon": "/usr/share/ulauncher/media/wikipedia-icon.png",
+        "is_default_search": true,
+        "run_without_argument": false,
+        "added": 1702741324.4850802
+    },
+    "1b3e38e3-aba3-4fce-94bc-1fa359e334ce": {
+        "id": "1b3e38e3-aba3-4fce-94bc-1fa359e334ce",
+        "name": "DuckDuck Search",
+        "keyword": "d",
+        "cmd": "https://duckduckgo.com/%s",
+        "icon": "~/Imagens/Capturas de tela/Captura de tela de 2023-12-16 21-03-51.jpg",
+        "is_default_search": false,
+        "run_without_argument": false,
+        "added": 1702771516.1177125
+    }
+}
