@@ -4,11 +4,12 @@ sudo apt install zsh
 
 #CONFIGURE Oh My Zsh
 
-curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh; zsh
+curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+zsh
 
 sudo usermod --shell $(which zsh) $USER
 
-#Install AWS CLI 
+#Install AWS CLI
 
 #TODO Add verification of the AWS CLI V1 installation
 
@@ -17,7 +18,7 @@ unzip awscliv2.zip
 sudo ./aws/install
 
 #Install Plugins
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
@@ -27,10 +28,10 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 
 #Copy ZSH Source Configurations
 
-
-cp zshrc ~/.zshrc 
+cp zshrc ~/.zshrc
 
 #Copy history files
-cp zsh_history ~/.zsh_history 
+cp zsh_history ~/.zsh_history
 
-
+#Install Treesetier dependecies
+sudo dnf install g++
