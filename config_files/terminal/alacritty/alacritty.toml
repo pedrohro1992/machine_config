@@ -1,0 +1,7 @@
+[shell]
+program = "wsl"
+args = ["--cd ~"]
+[font]
+normal = { family = "Hack Nerd Font", style = "Regular" }
+[cursor]
+style = {shape = "Beam", blinking = "Never" }
