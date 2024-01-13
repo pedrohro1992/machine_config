@@ -1,5 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
-export PATH="$HOME/.tmuxifier/bin:$PATH"
+#export PATH="$HOME/.tmuxifier/bin:$PATH"
 export EDITOR=vim
 
 ZSH_THEME="robbyrussell"
@@ -51,7 +51,7 @@ eval "$(starship init zsh)"
 
 eval "$(zoxide init zsh)"
 
-eval "$(tmuxifier init -)"
+#eval "$(tmuxifier init -)"
 
 
 #export GOPATH=/home/pedro/workspace/go
