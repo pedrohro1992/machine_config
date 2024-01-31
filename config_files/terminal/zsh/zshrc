@@ -1,6 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 #export PATH="$HOME/.tmuxifier/bin:$PATH"
 export EDITOR=vim
+export PATH=$PATH:/home/pedro/.local/bin
 
 ZSH_THEME="robbyrussell"
 
@@ -9,6 +10,7 @@ plugins=(git
     zsh-syntax-highlighting
     zsh-autosuggestions
     asdf
+    zsh-vi-mode
 )
 
 #STARTUPS SCRIPTS
@@ -51,7 +53,6 @@ eval "$(starship init zsh)"
 
 eval "$(zoxide init zsh)"
 
-#eval "$(tmuxifier init -)"
 
 
 #export GOPATH=/home/pedro/workspace/go

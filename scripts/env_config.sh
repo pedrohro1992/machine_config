@@ -26,6 +26,8 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 
+git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH_CUSTOM/plugins/zsh-vi-mode
+
 #Copy ZSH Source Configurations
 
 cp zshrc ~/.zshrc
