@@ -1,0 +1,41 @@
+{
+  "redhat.telemetry.enabled": true,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.mouseWheelZoom": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.sortImports": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "glassit.alpha": 210,
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.settings.applyToAllProfiles": ["editor.fontSize"],
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
+  "terminal.integrated.cursorStyle": "line",
+  "editor.renderWhitespace": "none",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "CaskaydiaMono Nerd Font",
+  "workbench.activityBar.location": "hidden",
+  "editor.minimap.autohide": true,
+  "vim.useSystemClipboard": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.useCtrlKeys": true,
+  "files.associations": {
+    "*plays.yml": "ansible",
+    "*init.yml": "yaml"
+  },
+  "window.menuBarVisibility": "toggle",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Dracula"
+}
