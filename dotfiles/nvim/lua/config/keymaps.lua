@@ -18,20 +18,20 @@ vim.keymap.set(
 vim.keymap.set("i", "jj", "<esc>")
 
 -- window management
-vim.keymap.set("n", "<leader>wv", "<C-w>v") -- split window vertically
+vim.keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
 vim.keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
-vim.keymap.set("n", "<leader>we", "<C-w>=") -- make split windows equal width & height
+vim.keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width & height
 vim.keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
 -------------------
 --Plugins keybinds
 ------------------
 --OIL (Explorer files)
-vim.keymap.set("n", "<C-e>", "<CMD>buffer | Oil .<CR>", { desc = "Open parent directory" })
+-- vim.keymap.set("n", "<C-e>", "<CMD>buffer | Oil .<CR>", { desc = "Open parent directory" })
 
 --Telescope
 vim.keymap.set(
   "n",
-  "<leader>ff",
+  "<C-p>",
   "<cmd>Telescope find_files<cr>",
   { desc = "find files within current working directory, respects .gitignore" }
 )
@@ -53,7 +53,8 @@ vim.keymap.set(
   "<cmd>Telescope buffers<cr>",
   { desc = "list open buffers in current neovim instance" }
 )
-vim.keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
 
+--vim-tmux-navigator keymaps
+vim.keymap.set("n", "<C-j>", "<cmd>TmuxNavigateDown<cr>", { desc = "Navigate to down pannel" })
 --Ainda não entendi o que fazer com isso
 --vim.keymap.set("n", "x", '"_x')
