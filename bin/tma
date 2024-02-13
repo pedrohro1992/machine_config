@@ -1,0 +1,5 @@
+#!/bin/bash
+
+SESSION=$(tmux list-sessions -F '#{session_name}' | fzf --reverse) 
+
+tmux a -t $SESSION

@@ -20,17 +20,15 @@ config.keys = {
 }
 
 -- Set the default domain to WSL Ubuntu
--- config.default_domain = 'WSL:Ubuntu'
+config.default_domain = 'WSL:Ubuntu'
 -- Apperance
 -- Set the theme
-config.color_scheme = "Monokai Pro (Gogh)"
--- Set opacity
---config.window_background_opacity = 0.9
+config.color_scheme = 'Kanagawa (Gogh)'
+config.window_background_opacity = 0.9
 --config.text_background_opacity = 0.9
 -- Font Conf
-config.font = wezterm.font("CaskaydiaMono Nerd Font")
+config.font = wezterm.font("CaskaydiaMono Nerd Font") 
 config.font_size = 11
 -- return the config to wezterm
 --config.enable_wayland = true
 return config
-
