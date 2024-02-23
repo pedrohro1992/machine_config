@@ -53,4 +53,6 @@ eval "$(starship init zsh)"
 
 eval "$(zoxide init zsh)"
 
+zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh')
+
 #export GOPATH=/home/pedro/workspace/go
