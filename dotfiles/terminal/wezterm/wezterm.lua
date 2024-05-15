@@ -20,7 +20,7 @@ config.keys = {
 }
 
 -- Set the default domain to WSL Ubuntu
-config.default_domain = 'WSL:Ubuntu'
+-- config.default_domain = 'WSL:Ubuntu'
 -- Apperance
 -- Set the theme
 config.color_scheme = 'Kanagawa (Gogh)'
