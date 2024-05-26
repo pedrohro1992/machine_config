@@ -1,0 +1,17 @@
+age
+golang
+golangci-lint
+helm
+helmfile
+jq
+kubectl
+kubectx
+kubespy
+kustomize
+nodejs
+rust
+skaffold
+sonobuoy
+sops
+stern
+terraform
