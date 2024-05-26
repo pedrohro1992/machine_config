@@ -1,0 +1,32 @@
+age
+ *1.1.1
+golang
+ *1.22.3
+golangci-lint
+ *1.58.2
+helm
+ *3.14.4
+helmfile
+ *0.164.0
+jq
+ *1.7.1
+kubectl
+ *1.30.0
+kubectx
+ *0.9.5
+kubespy
+ *0.6.3
+kustomize
+ *5.4.1
+rust
+ *1.78.0
+skaffold
+ *2.12.0
+sonobuoy
+ *0.57.1
+sops
+ *3.8.1
+stern
+ *1.29.0
+terraform
+ *1.2.0
