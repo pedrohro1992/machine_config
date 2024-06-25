@@ -1,21 +1,48 @@
 {
+  //Workbench and Editor Configs
+  "redhat.telemetry.enabled": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.mouseWheelZoom": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.sortImports": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.settings.applyToAllProfiles": ["editor.fontSize"],
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
+  "terminal.integrated.cursorStyle": "line",
+  "editor.fontFamily": "CaskaydiaMono Nerd Font",
+  "editor.renderWhitespace": "none",
+  "editor.fontSize": 14,
   "workbench.activityBar.location": "hidden",
   "window.menuBarVisibility": "toggle",
-  "editor.fontFamily": "CaskaydiaMono Nerd Font",
-  "editor.formatOnSave": true,
-  "editor.fontSize": 14,
-  "terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Kanagawa",
+  "files.associations": {
+    "*plays.yml": "ansible",
+    "*init.yml": "yaml"
+  },
+
+  //VScode Icons Configs
+  "vsicons.dontShowNewVersionMessage": true,
+
+  //Findt It Faster Configs 
   "find-it-faster.advanced.disableStartupChecks": true,
   "find-it-faster.general.killTerminalAfterUse": true,
   "find-it-faster.general.hideTerminalAfterFail": false,
-  "find-it-faster.general.hideTerminalAfterSuccess": false,
-  "gitProjectManager.baseProjectsFolders": ["/home/pedroo/Workspace"],
-  // Nao lembro que parada e essa
-  // "vs-kubernetes": {
-  //     "vscode-kubernetes.helm-path-linux": "/home/pedro/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
-  //     "vscode-kubernetes.minikube-path-linux": "/home/pedro/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
-  // },
-  //Vim Plugin Configs
+  "find-it-faster.general.hideTerminalAfterSuccess": false, 
+
+  //Git Project Manager Configs
+  "gitProjectManager.baseProjectsFolders": ["~/Workspace"],
+
+  //VIM Configs
   "vim.easymotion": true,
   "vim.leader": "<space>",
   "vim.incsearch": true,
@@ -29,8 +56,8 @@
       "before": ["j", "k"],
       "after": ["<Esc>"]
     }
-  ],
-  "vim.normalModeKeyBindings": [
+  ], 
+   "vim.normalModeKeyBindings": [
     {
       "before": ["<C-z>"],
       "commands": ["workbench.action.togglePanel"]
@@ -94,8 +121,5 @@
     "<C-z>": true,
     "<C-f>": false
   },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.colorTheme": "Kanagawa"
+  "vim.useCtrlKeys": true,
 }
