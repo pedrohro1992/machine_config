@@ -30,10 +30,8 @@ git clone https://github.com/jeffreytse/zsh-vi-mode $ZSH_CUSTOM/plugins/zsh-vi-m
 
 #Copy ZSH Source Configurations
 
-cp zshrc ~/.zshrc
+cp dotfiles/zsh/zshrc ~/.zshrc
 
-#Copy history files
-cp zsh_history ~/.zsh_history
 
 #Install Treesetier dependecies
 sudo dnf install g++
