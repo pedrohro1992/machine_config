@@ -1,5 +1,17 @@
 // Place your key bindings in this file to override the defaults
 [
+  // Git Open Projects
+  {
+    "key": "space o",
+    "command": "gitProjectManager.OpenProjectNewWindow",
+    "when": "!filesExplorerFocus && !inputFocus"
+  },
+  // QuickOpen
+  {
+    "key": "space f",
+    "command": "workbench.action.quickOpen",
+    "when": "!filesExplorerFocus && !inputFocus"
+  },
   // Terminal KeyBindings
   {
     "key": "ctrl+j",
@@ -16,7 +28,33 @@
     "command": "workbench.action.toggleMaximizedPanel",
     "when": "terminalFocus"
   },
-  //Explorer Keybindigs 
+  {
+    "key": "ctrl+%",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  // Better experience with find
+  {
+    "key": "ctrl+n",
+    "command": "search.action.focusNextSearchResult",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "search.action.focusPreviousSearchResult",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  //Explorer Keybindigs
   {
     "key": "space e",
     "command": "workbench.view.explorer",
