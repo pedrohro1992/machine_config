@@ -1,60 +1,36 @@
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
+--Misc keymap
+vim.keymap.set("n", "<leader>w", "<cmd> w! <cr>", { desc = "Safe file in the current buffer" })
 
---
--- Exit And Save
-vim.keymap.set("n", "<C-s>", "<cmd> w! <cr>", { desc = "Safe file in the current buffer" })
+vim.keymap.set("n", "<leader>q", "<cmd> q <cr>", { desc = "Close current buffer" })
 
-vim.keymap.set("n", "<C-q>", "<cmd> q <cr>", { desc = "Force quit the buffer" })
+vim.keymap.set("n", "<leader>qb", "<cmd> BufferClose <cr>", { desc = "Close current buffer" })
 
-vim.keymap.set("n", "<leader>sq", "<cmd> x <cr>", { desc = "Save and exit file" })
+vim.keymap.set("n", "<leader>qa", "<cmd> qa! <cr>", { desc = "Close all buffers and exit" })
 
---Misc
-vim.keymap.set(
-  "n",
-  "<leader>fr",
-  [[:%s/<C-r><C-w>//g<Left><Left>]],
-  { desc = "Find and replace Word ander the cursor" }
-)
-vim.keymap.set("i", "jj", "<esc>")
+vim.keymap.set("n", "<leader>wq", "<cmd> x <cr>", { desc = "Save and exit file" })
 
--- window management
-vim.keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
-vim.keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
-vim.keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width & height
-vim.keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
--------------------
---Plugins keybinds
-------------------
---OIL (Explorer files)
--- vim.keymap.set("n", "<C-e>", "<CMD>buffer | Oil .<CR>", { desc = "Open parent directory" })
+vim.keymap.set("n", "<leader>vs", "<cmd> vsplit <cr>", { desc = "Split window on vertical" })
 
---Telescope
-vim.keymap.set(
-  "n",
-  "<C-p>",
-  "<cmd>Telescope find_files<cr>",
-  { desc = "find files within current working directory, respects .gitignore" }
-)
-vim.keymap.set(
-  "n",
-  "<leader>fg",
-  "<cmd>Telescope live_grep<cr>",
-  { desc = "find string in current working directory as you type" }
-)
-vim.keymap.set(
-  "n",
-  "<leader>fs",
-  "<cmd>Telescope grep_string<cr>",
-  { desc = "find string under cursor in current working directory" }
-)
-vim.keymap.set(
-  "n",
-  "<leader>fb",
-  "<cmd>Telescope buffers<cr>",
-  { desc = "list open buffers in current neovim instance" }
-)
+-- Custom Plugins Keymaps
+vim.keymap.set("n", "<leader>e", "<cmd> Neotree <cr>", { desc = "Open NeoTree" })
 
---vim-tmux-navigator keymaps
-vim.keymap.set("n", "<C-j>", "<cmd>TmuxNavigateDown<cr>", { desc = "Navigate to down pannel" })
---Ainda não entendi o que fazer com isso
---vim.keymap.set("n", "x", '"_x')
+vim.keymap.set("n", "<leader>gg", "<cmd> LazyGit <cr>", { desc = "Open LazyGit" })
+
+vim.keymap.set("n", "<C-l>", "<cmd> TmuxNavigateRight <cr>", { desc = "Jump to Right Split" })
+
+vim.keymap.set("n", "<C-h>", "<cmd> TmuxNavigateLeft <cr>", { desc = "Jump to Left Split" })
+
+vim.keymap.set("n", "<C-j>", "<cmd> TmuxNavigateDown <cr>", { desc = "Jump to Left Split" })
+
+--Back to normal mode using j j
+vim.keymap.set("i", "jk", "<esc>")
+
+-- Move cut to the _ register
+vim.keymap.set("n", "x", '"_x')
+vim.keymap.set("v", "x", '"_x')
+
+--Select All
+
+vim.keymap.set("n", "<tab>", "<cmd> bnext <cr>", { desc = "Move to Next Tab" })
+
+vim.keymap.set("n", "<space><tab>", "<cmd> bprevious <cr>", { desc = "Move to Previous Tab" })
