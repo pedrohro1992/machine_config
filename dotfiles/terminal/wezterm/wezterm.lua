@@ -32,9 +32,15 @@ config.use_fancy_tab_bar = false
 config.tab_bar_at_bottom = true
 config.hide_tab_bar_if_only_one_tab = true
 -- Set the theme
-config.color_scheme = 'Kanagawa (Gogh)'
+config.color_scheme = "Kanagawa (Gogh)"
 config.window_background_opacity = 0.8
 -- config.text_background_opacity = 1.0
+config.foreground_text_hsb = {
+	hue = 1.0,
+	saturation = 1.2,
+	brightness = 1.5,
+}
+
 -- Font Conf
 config.font = wezterm.font("CaskaydiaMono Nerd Font")
 config.font_size = 11
