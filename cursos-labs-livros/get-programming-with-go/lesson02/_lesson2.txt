@@ -44,8 +44,36 @@ Nao esta claro o que esses numeros siginificam, especialmente valores como 0.378
 Variaveis e constantes podem ajudar provendo nomes descritivos
 (Codigo de exemnplo em listing/lightspeed.go)
 
+PEGANDO ATALHOS
+
+Quando se declara variaveis ou contantes, pode se declarar cada uma na sua propria lista, assim:
+  var distance = 56000000
+  var speed = 100800
+
+Ou as declarar como grupos:
+  var (
+    distance = 56000000
+    speed = 100800
+  )
+
+Ou tambem existe a opcao de decalarar multiplas variaveis em uma unica linha 
+
+  var distance, speed = 56000000, 100800
 
 
+OPERADORES DE ATRIBUICAO E INCREMENTO 
 
+Existem alguns atalhos para executar atribuições com outras operações. As duas ultimas linhas da 
+lista abaixo sao equivalentes:
+  var weight = 149.0
+  weight = weight * 0.3783
+  weight *= 0.3783
 
+Incrementar mais um tem um atalho adicional:
+  var age = 41
+  age = age + 1 // Feliz aniversario
+  age += 1 
+  age++
 
+Tambem se pode decrementar com "count--" ou operacoes mais curtas como 
+price /= 2 
